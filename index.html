@@ -2,24 +2,97 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeri Aib</title>
+    <title>Projek Power Supply XTE E 2024/2025</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h9 class="gg"><marquee>Link Jan DiSebar Woe</marquee></h9>
-    <div id="image-container" class="gallery"></div>
-    <input type="file" id="image-file" accept="image/*" capture="camera" style="display: none;">
-    <button id="add-image-button" class="circle-button">+</button>
 
-    <!-- Lightbox Modal -->
-    <div id="lightbox" class="lightbox">
-        <span id="close-lightbox" class="close">&times;</span>
-        <img id="lightbox-image" class="lightbox-content" src="">
+<header>
+    <h1>Projek Power Supply XTE E<br>2024/2025</h1>
+</header>
+
+<div class="container">
+    <!-- Informasi Tim -->
+    <div class="team">
+        <h2>Kelompok</h2>
+        <table>
+            <tr><th>Nama Kelompok</th><th>Anggota Kelompok</th></tr>
+            <tr><td>KELOMPOK 7</td><td>• Salman Sagara (31)<br>• Teonathan Deon (32)<br>• Varis Tofano (33)<br>• Venus Alvino (34)<br>• Wika Airlangga (35)</td></tr>
+        </table>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Pembukaan -->
+    <div class="opening">
+        <h3>Pembukaan</h3>
+        <p>Power supply merupakan salah satu komponen penting dalam dunia elektronik. Alat ini berfungsi untuk mengubah sumber daya listrik dari bentuk arus bolak-balik (AC) menjadi arus searah (DC) yang dibutuhkan oleh banyak perangkat elektronik. Dalam proyek ini, kami merancang sebuah power supply yang dapat memberikan tegangan yang stabil, sehingga perangkat yang menggunakannya dapat bekerja dengan optimal.</p>
+    </div>
+
+    <!-- Pengertian Power Supply -->
+    <div class="definition">
+        <h3>Pengertian Power Supply</h3>
+        <p>Power supply adalah perangkat yang menyediakan daya listrik dalam bentuk tertentu, seperti tegangan dan arus, yang dibutuhkan oleh perangkat elektronik. Secara umum, power supply mengubah sumber daya listrik, yang biasanya berupa arus bolak-balik (AC), menjadi arus searah (DC). Dengan adanya power supply yang baik, perangkat elektronik akan mendapatkan daya yang stabil dan aman digunakan.</p>
+    </div>
+
+    <!-- Foto Produk -->
+    <div class="image">
+        <h2>Foto Produk Power Supply</h2>
+        <img src="PSU.jpg">
+    </div>
+
+    <!-- Skema Rangkaian -->
+    <div class="diagram">
+        <h2>Skema Rangkaian Power Supply</h2>
+        <img src="gambarPSU.jpg" alt="Power Supply Schematic">
+    </div>
+
+    <!-- Deskripsi Proyek -->
+    <div class="description">
+        <h3>Deskripsi Proyek</h3>
+        <p>Proyek ini bertujuan untuk merancang sebuah power supply yang mampu mengubah tegangan AC menjadi DC. Proses ini dilakukan dengan menggunakan beberapa komponen penting seperti transformator, dioda bridge rectifier, kapasitor untuk filter, dan regulator tegangan. Dengan rangkaian ini, tegangan yang dihasilkan dapat stabil dan sesuai dengan yang dibutuhkan perangkat elektronik.</p>
+    </div>
+
+    <!-- Alat dan Bahan -->
+    <div class="materials">
+        <h3>Alat dan Bahan</h3>
+        <table>
+            <tr><th>Alat</th><th>Bahan</th></tr>
+            <tr><td>Multimeter</td><td>Transformator CT</td></tr>
+            <tr><td>Obeng</td><td>Dioda</td></tr>
+            <tr><td>Solder</td><td>Kapasitor</td></tr>
+            <tr><td>Lem Tembak</td><td>Tenol</td></tr>
+            <tr><td>bor</td><td>Kabel PCB</td></tr>
+            <tr><td>Gergaji</td><td>particleBoard</td></tr>
+            <tr><td>kikir atau ukir</td><td>Box X6</td></tr>
+            <tr><td></td><td>Papan PCB</td></tr>
+            <tr><td></td><td>Resistor</td></tr>
+            <tr><td></td><td>Saklar Rotary 2 Sisi</td></tr>
+            <tr><td></td><td>Switch On/Off</td></tr>
+            <tr><td></td><td>Lampu LED</td></tr>
+            <tr><td></td><td>Baut</td></tr>
+        </table>
+    </div>
+
+    <!-- Cara Pembuatan -->
+    <div class="making-process">
+        <h3>Cara Pembuatan</h3>
+        <p>Untuk membuat power supply ini, pertama-tama kami mempersiapkan alat dan bahan yang dibutuhkan. Setelah itu, langkah-langkahnya adalah sebagai berikut:</p>
+        <ul>
+            <li>Pasang transformator dan sambungkan dengan sumber tegangan AC.</li>
+            <li>Pasang dioda bridge rectifier untuk mengubah arus AC menjadi DC.</li>
+            <li>Pasang kapasitor filter untuk menyaring tegangan yang tidak stabil dan memastikan output DC yang bersih.</li>
+            <li>Pasang regulator tegangan 7805 untuk menjaga agar tegangan yang keluar tetap stabil pada level yang dibutuhkan.</li>
+            <li>Periksa hasil sambungan menggunakan multimeter untuk memastikan semuanya berfungsi dengan baik.</li>
+        </ul>
+    </div>
+
+    <!-- Penutupan -->
+    <div class="closure">
+        <h3>Penutupan</h3>
+        <p>Setelah melalui beberapa tahap pembuatan dan pengujian, kami berhasil membuat power supply yang dapat mengubah tegangan AC menjadi DC dengan stabil. Proyek ini memberikan banyak pembelajaran tentang bagaimana komponen elektronik bekerja bersama-sama dalam rangkaian. Kami berharap proyek ini dapat bermanfaat, tidak hanya bagi kami, tetapi juga bagi orang lain yang membutuhkannya. Terima kasih kepada semua pihak yang telah membantu dan mendukung kami dalam menyelesaikan proyek ini.</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
